@@ -437,7 +437,7 @@ body {
   border-bottom: 1px solid #ECECEC;
 }
 
-.page-header-container {
+.page-header__container {
   display: flex;
   align-items: center;
 }
