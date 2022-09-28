@@ -26,6 +26,15 @@
     border-bottom: 1px solid #ECECEC;
 }
 
+.logo-header {
+    font-family: var(--secondary-font);
+    @include font(24px, 700, 28px);
+    color: var(--secondary-color-dark);
+}
+
+.logo-header__part1 {
+    color: var(--accent-color);
+}
 
 
 
