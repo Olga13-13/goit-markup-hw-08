@@ -55,6 +55,7 @@
         padding-right: 24px;
         border: 1px solid var(--secondary-color-with);
         border-top: 0;
+        flex-grow: 1;
     }
 
     .portfolio-item {
@@ -86,7 +87,17 @@
         padding: 0;
     }
 
+    .portfolio-post {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio-box-mini {
+        flex-grow: 1;
+    }
+
     .portfolio-box {
+        
         flex-basis: calc((100% - 30px) / 2);
         margin-bottom: 0px;
     }

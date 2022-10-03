@@ -1655,6 +1655,7 @@ body {
     padding-right: 24px;
     border: 1px solid var(--secondary-color-with);
     border-top: 0;
+    flex-grow: 1;
   }
   .portfolio-item {
     font-weight: 700;
@@ -1679,6 +1680,13 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
+  }
+  .portfolio-post {
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio-box-mini {
+    flex-grow: 1;
   }
   .portfolio-box {
     flex-basis: calc((100% - 30px) / 2);
