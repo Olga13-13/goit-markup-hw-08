@@ -1,5 +1,17 @@
+.container-footer {
+    padding-left: 0px;
+    padding-right: 0px;
+    // min-width: 450px;
+}
+
+.page-footer-container-contact {
+    padding-left: 0px;
+    padding-right: 0px;
+    // min-width: 450px
+}
+
 .footer-main {
-    margin-right: 0;
+    margin-right: auto;
     margin-left: auto;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -61,8 +73,14 @@
 }
 
 @media screen and (min-width: 480px) {
+    .container-footer {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 450px;
+    }
     .footer-main__input {
         width: 450px;
+        min-width: 0px;
     }
 
     .footer-main__button {

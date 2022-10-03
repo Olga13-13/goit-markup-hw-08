@@ -1,17 +1,17 @@
 .osoblivosti {
     padding-top: 60px;
     padding-bottom: 60px;
-    // width: 450px;
+    min-width: 450px;
     
 }
 
 .osoblivosti__container {
-    width: 450px;
+    min-width: 450px;
     height: 994px;
 }
 
 .osoblivosti__card {
-    width: 450px;
+    min-width: 450px;
     height: 226px;
     margin-bottom: 30px;
 }
@@ -47,6 +47,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+   
     .osoblivosti__container {
         display: flex;
         flex-wrap: wrap;
@@ -55,8 +56,9 @@
         height: 480px;
     }
     .osoblivosti__card {
+        min-width: 0px;
         width: 354px;
-        height: 224px;
+        height: 226px;
         margin-bottom: 0px;
     }
     .osoblivosti__subtitle {
@@ -77,6 +79,7 @@
     }
     
     .osoblivosti__card {
+        min-width: 0px;
         width: 270px;
         height: 248px;
         flex-basis: calc((100% - 90px) / 4);

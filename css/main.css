@@ -87,7 +87,7 @@ body {
 
 @media screen and (min-width: 320px) {
   .container {
-    width: 450px;
+    min-width: 320px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -545,8 +545,18 @@ body {
   border-color: var(--accent-color);
 }
 
+.container-footer {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.page-footer-container-contact {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .footer-main {
-  margin-right: 0;
+  margin-right: auto;
   margin-left: auto;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -609,8 +619,14 @@ body {
 }
 
 @media screen and (min-width: 480px) {
+  .container-footer {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 450px;
+  }
   .footer-main__input {
     width: 450px;
+    min-width: 0px;
   }
   .footer-main__button {
     width: 200px;
@@ -739,6 +755,7 @@ body {
     padding-top: 16px;
     padding-bottom: 16px;
     border-bottom: 1px solid #ECECEC;
+    min-width: 450px;
   }
   .logo-header {
     font-family: var(--secondary-font);
@@ -1173,15 +1190,16 @@ body {
 .osoblivosti {
   padding-top: 60px;
   padding-bottom: 60px;
+  min-width: 450px;
 }
 
 .osoblivosti__container {
-  width: 450px;
+  min-width: 450px;
   height: 994px;
 }
 
 .osoblivosti__card {
-  width: 450px;
+  min-width: 450px;
   height: 226px;
   margin-bottom: 30px;
 }
@@ -1225,8 +1243,9 @@ body {
     height: 480px;
   }
   .osoblivosti__card {
+    min-width: 0px;
     width: 354px;
-    height: 224px;
+    height: 226px;
     margin-bottom: 0px;
   }
   .osoblivosti__subtitle {
@@ -1245,6 +1264,7 @@ body {
     height: 248px;
   }
   .osoblivosti__card {
+    min-width: 0px;
     width: 270px;
     height: 248px;
     flex-basis: calc((100% - 90px) / 4);
@@ -1471,6 +1491,10 @@ body {
     transition: fill var(--transition-duration-function);
   }
 }
+.client {
+  min-width: 450px;
+}
+
 .client-name {
   font-weight: 700;
   font-size: 28px;
